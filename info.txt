@@ -1,3 +1,6 @@
 ExpressJS
 
-views is default directory which ExpressJS uses to keep mark up files, if you change the name of this other than views , then expressjs wont recognise the path 
+views is default directory which ExpressJS uses to keep mark up files, if you change the name of this other than views , then expressjs wont recognise the path
+
+To keep watch hbs files from nodemon
+folder_path>nodemon server.js -e js,hbs 
