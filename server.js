@@ -59,6 +59,13 @@ app.get('/about',(req,res)=>{
     });
 });
 
+app.get('/project',(req,res)=>{
+    res.render('project.hbs',{
+        pageTitle:"Project Page",
+        welcomeMsg:"Welcome to Project"
+    });
+});
+
 app.get('/bad',(req,res)=>{
     res.send({
         ErrorMessage:"Unable to fetch the data"
